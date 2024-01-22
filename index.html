@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Riyad Hossen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Web Title -->
+    <title>Influencer Gear - Single Page Website | Developed By Riyad</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Lib File | Swiper Slider | CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Assets File | CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader"></div>
+    <!-- Preloader End -->
+
+    <!-- Header Section Start -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row">
+                <!-- Navbar -->
+                <nav class="navbar">
+                    <!-- Bar Menu -->
+                    <div class="menu-bar">
+                        <span class="menu-bar-icon" onclick="showMenu()"><i class="ri-menu-line"></i></span>
+                    </div>
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html"><img src="./assets/img/logo.svg" alt="Logo"></a>
+                    </div>
+                    <!-- Menu -->
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Popular Products</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><span class="header-search-icon"><i class="ri-search-line"></i></span></li>
+                            <li><span class="header-cart-icon"><i class="ri-shopping-cart-2-line"></i></span></li>
+                        </ul>
+                    </div>
+                    <!-- Cart -->
+                    <div class="cart">
+                        <span class="cart-icon"><i class="ri-shopping-cart-2-line"></i></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Mobile Navbar -->
+    <div class="mobile-navbar" id="navLinks">
+        <span class="close-icon" onclick="hideMenu()"><i class="ri-close-fill"></i></span>
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">SignUp</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Area  Start -->
+    <main class="main">
+        <!-- Hero Section Start -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <!-- Hero Content Wrapper -->
+                    <div class="hero-content-wrapper">
+                        <!-- Hero Text -->
+                        <div class="hero-text">
+                            <div class="hero-text-wrapper">
+                                <h1>Start your Journey as Influencer</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed
+                                    scelerisque eros. Lectus faucibus.</p>
+                                <a href="#" class="hero-btn primary-btn">Prebook Now <span class="hero-btn-icon"><i
+                                            class="ri-arrow-right-line"></i></span></a>
+                            </div>
+                        </div>
+                        <!-- Hero Image -->
+                        <div class="hero-img">
+                            <img src="./assets/img/main-camera.png" class="hero-main-img" alt="Main Camera"
+                                loading="lazy">
+                            <img src="./assets/img/Circle design.svg" class="shape-img" alt="Shape" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section End -->
+
+        <!-- Brand Section Start -->
+        <section class="brand-section">
+            <div class="container">
+                <div class="row">
+                    <!-- Brand Content Wrapper -->
+                    <div class="brand-content-wrapper">
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/alibaba.png" alt="Alibaba">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/amazon.png" alt="Amazon">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/daraz.png" alt="Daraz">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/target.png" alt="Target">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/ebay.png" alt="Ebay">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/rakuten.png" alt="Rakuten">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/target.png" alt="Target">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Brand Section End -->
+
+        <!-- Product Section Start -->
+        <section class="product-section">
+            <div class="container">
+                <div class="row">
+                    <!-- Product Title Wrapper -->
+                    <div class="product-title-wrapper">
+                        <h2>Popular Collection</h2>
+                    </div>
+                    <!-- Product Content Wrapper -->
+                    <div class="product-content-wrapper">
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/tripod.png" alt="Tripod" loading="lazy">
+                                <h3>Flex Tripod</h3>
+                                <p class="price">$50.48</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/mic.png" alt="Mic" loading="lazy">
+                                <h3>Microphone</h3>
+                                <p class="price">$120.25</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/airpod.png" alt="Airpod" loading="lazy">
+                                <h3>Air Buds</h3>
+                                <p class="price">$100.00</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/drone.png" alt="Drone" loading="lazy">
+                                <h3>Drone</h3>
+                                <p class="price">$980.48</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/lights.png" alt="Lights" loading="lazy">
+                                <h3>Light Setup</h3>
+                                <p class="price">$1200.00</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/tripod.png" alt="Tripod" loading="lazy">
+                                <h3>Flex Tripod</h3>
+                                <p class="price">$50.48</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/tripod.png" alt="Tripod" loading="lazy">
+                                <h3>Flex Tripod</h3>
+                                <p class="price">$50.48</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/tripod.png" alt="Tripod" loading="lazy">
+                                <h3>Flex Tripod</h3>
+                                <p class="price">$50.48</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                        <!-- Product Item -->
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/tripod.png" alt="Tripod" loading="lazy">
+                                <h3>Flex Tripod</h3>
+                                <p class="price">$50.48</p>
+                                <div class="product-review">
+                                    <div class="star-badge">
+                                        <ul>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-fill"></i></span></li>
+                                            <li><span class="star-badge-icon"><i class="ri-star-half-line"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="rating-text">4.99</span>
+                                    </div>
+                                </div>
+                                <p class="product-desc">Wordwide shifting available Buyers protection possible!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Link -->
+                    <div class="show-more">
+                        <a href="#" class="product-link">See More <span class="product-link-icon"><i
+                                    class="ri-arrow-right-line"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product Section End -->
+
+        <!-- Feature Section Start -->
+        <section class="feature-section">
+            <div class="container">
+                <div class="row">
+                    <!-- Feature Content Wrapper -->
+                    <div class="feature-content-wrapper">
+                        <!-- Feature Image -->
+                        <div class="feature-img">
+                            <img src="./assets/img/gear.png" alt="Gear" loading="lazy">
+                        </div>
+                        <!-- Feature Text -->
+                        <div class="feature-text">
+                            <h2>Featured products at one place</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <a href="#" class="feature-btn primary-btn">Prebook Now <span class="hero-btn-icon"><i
+                                        class="ri-arrow-right-line"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feature Section End -->
+    </main>
+    <!-- Main Area  End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Content Wrapper -->
+                <div class="footer-content-wrapper">
+                    <div class="footer-text">
+                        <h4>Influencer products</h4>
+                        <p>Copyright © 2020 influencer products <br> All rights reserved</p>
+
+                        <!-- Footer Social -->
+                        <div class="footer-social">
+                            <ul>
+                                <li><a href="#"><span class="footer-social-icon"><i
+                                                class="ri-instagram-line"></i></span></a></li>
+                                <li><a href="#"><span class="footer-social-icon"><i
+                                                class="ri-dribbble-fill"></i></span></a></li>
+                                <li><a href="#"><span class="footer-social-icon"><i
+                                                class="ri-twitter-fill"></i></span></a></li>
+                                <li><a href="#"><span class="footer-social-icon"><i
+                                                class="ri-youtube-fill"></i></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <!-- JS File Link -->
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="./assets/js/app.js"></script>
+</body>
+
+</html>
